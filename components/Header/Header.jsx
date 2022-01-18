@@ -15,15 +15,16 @@ function Header() {
          <MenuIcon className={styles.header__icon} />
             <Image src="/hapi.png" alt="Hapi Logo" width={72} height={25} className={styles.hapi__logo} />
             </div>
-            <div className="input-search">
-            <input type={styles.input__search}></input>
+            <div className={styles.input__search}>
+            <input type={styles.input__search} placeholder="Search"></input>
             <SearchIcon className={styles.header__search} />
             </div>
-            <div className={styles.header__right}></div>
-            <VideocamIcon />
-            <AppsIcon />
-            <NotificationsIcon />
-            <AccountCircleIcon />
+            <div className={styles.header__right}>
+            <VideocamIcon className={styles.header__icon} />
+            <AppsIcon className={styles.header__icon} />
+            <NotificationsIcon className={styles.header__icon} />
+            <AccountCircleIcon className={styles.header__icon} />
+            </div>
         </div>
     )
 }

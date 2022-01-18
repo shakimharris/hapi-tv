@@ -31,10 +31,11 @@
     width: 50px !important;
     background-color: #fafafa;
     border-left: 1px solid grey;
+    color: grey;
 }
 
 .header-icon {
-    margin-right: 7px;
+    margin-right: 10px;
 }
 
 .input-search > input {
