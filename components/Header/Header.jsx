@@ -16,7 +16,7 @@ function Header() {
             <Image src="/hapi.png" alt="Hapi Logo" width={72} height={25} className={styles.hapi__logo} />
             </div>
             <div className={styles.input__search}>
-            <input type={styles.input__search} placeholder="Search"></input>
+            <input type="text" className={styles.input__search} placeholder="Search"></input>
             <SearchIcon className={styles.header__search} />
             </div>
             <div className={styles.header__right}>
