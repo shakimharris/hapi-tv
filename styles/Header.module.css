@@ -30,9 +30,9 @@
 
 .header__search {
     width: 50px !important;
-    background-color: #fafafa;
+    background-color: #0c9aec;
     border-left: 1px solid grey;
-    color: grey;
+    color: rgb(255, 255, 255);
 }
 
 .header-icon {
